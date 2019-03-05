@@ -296,11 +296,13 @@ Example Emoji object
 For clarity, the object is shown using regular JSON formatting, but in the data file it cannot be spread across several lines. It must be all on one line.
 
 .. code-block:: javascript
-
-  {
+{
+  "type": "emoji",
+  "emoji": {
     "name": "custom-emoji-troll",
     "image": "bulkdata/emoji/trollolol.png"
   }
+}
 
 Fields of the Emoji object
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
